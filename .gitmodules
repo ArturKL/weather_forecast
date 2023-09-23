@@ -1,8 +1,8 @@
-[submodule "cpr"]
-	path = cpr
-	url = https://github.com/libcpr/cpr.git
-	branch = 1.9.x
 [submodule "json"]
 	path = json
 	url = https://github.com/nlohmann/json.git
 	branch = master
+[submodule "cpr"]
+	path = cpr
+	url = https://github.com/libcpr/cpr.git
+	branch = 1.9.x
