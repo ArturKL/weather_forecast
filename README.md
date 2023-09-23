@@ -15,5 +15,16 @@
 
 Список городов, частота обновления, количество дней прогноза должны быть определены в *config.json*
 
+Структура:
+``` 
+    {
+        "cities": [[city_name, two_letter_country_name], ...],
+        "forecast_days": int, // default = 7
+        "update_frequency": int (in minutes) // default = 10
+    }
+```
+
 ## Реализация
-В качестве библиотеки для запросов требуется воспользоваться [C++ Requests](https://github.com/libcpr/cpr)
+Библиотека для запросов: [C++ Requests](https://github.com/libcpr/cpr)
+Библиотека для парсинга json: [JSON for Modern C++](https://github.com/nlohmann/json)
+
